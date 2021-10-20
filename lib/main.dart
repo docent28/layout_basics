@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -81,7 +79,8 @@ Widget _buildBody() {
 Image _headerImage() {
   return const Image(
     image: NetworkImage(
-      "https://avatars.mds.yandex.net/get-zen_doc/169683/pub_5b37d5317aa92600aa96d74f_5b37d57aa9112400ae6e63b9/scale_1200",
+      "https://avatars.mds.yandex.net/get-zen_doc/169683/"
+          "pub_5b37d5317aa92600aa96d74f_5b37d57aa9112400ae6e63b9/scale_1200",
     ),
     fit: BoxFit.cover,
   );
